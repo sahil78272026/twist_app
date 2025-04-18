@@ -1,14 +1,14 @@
 import { StyleSheet, Text, View, Image } from 'react-native'
 import React from 'react'
 import Logo from '../assets/img/logo_light.png'
-import {Link} from 'expo-router'
+import { Link } from 'expo-router'
 
 
 const Home = () => {
     return (
         <View style={styles.container}>
             <Image source={Logo} style={styles.img} />
-            <Text style={[styles.title, {color:'purple'}]}>index, hello, testing expo router</Text>
+            <Text style={[styles.title, { color: 'purple' }]}>index, hello, testing expo router</Text>
             <Text style={{ marginTop: 10, marginBottom: 30 }}> Reading List App </Text>
             <View style={styles.card}>
                 <Text> This is a card </Text>
@@ -43,8 +43,8 @@ const styles = StyleSheet.create({
     img: {
         marginVertical: 20
     },
-    link:{
-        marginVertical:10,
-        borderBottomWidth:1
+    link: {
+        marginVertical: 10,
+        borderBottomWidth: 1
     }
 })
