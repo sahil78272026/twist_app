@@ -8,6 +8,7 @@ const Contact = () => {
             <Text style={styles.title}>Contact Page</Text>
             <Link href="/" style={styles.link}> Back Home</Link>
             <Link href="/about" style={styles.link}>About Page</Link>
+            <Link href="/profile" style={styles.link}>Profile Page</Link>
         </View>
     )
 }
