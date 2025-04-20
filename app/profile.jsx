@@ -6,7 +6,7 @@ import { Link } from 'expo-router'
 const Profile = () => {
     return (
         <View>
-            <Text>Profile Page</Text>
+            <Text>Profile Page, adding this comment, qki aaj man nahi kar rha </Text>
             <Link href="/about" style={styles.link}>About Page</Link>
             <Link href="/contact" style={styles.link}>Contact Page</Link>
             <Link href="/" style={styles.link}> Back Home</Link>
