@@ -9,7 +9,7 @@ const RootLayout = () => {
     const colorScheme = useColorScheme() // light or dark
     console.log(colorScheme)
     const theme = Colors[colorScheme]??Colors.light // ?? is used if not found any value then providing default
-
+    console.log(theme)
 
     return (
         <View style={{ flex: 1 }}>
