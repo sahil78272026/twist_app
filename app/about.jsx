@@ -7,6 +7,8 @@ const About = () => {
         <View style={styles.container}>
             <Text style={styles.title}>About Page</Text>
             <Text> Not able to focus these days., tyring to be consistent </Text>
+            <Text> Aaj bhi nahi kara, </Text>
+
             <Link href="/" style={styles.link}> Back Home</Link>
             <Link href="/contact" style={styles.link}>Contact Page</Link>
             <Link href="/profile" style={styles.link}>Profile Page</Link>
