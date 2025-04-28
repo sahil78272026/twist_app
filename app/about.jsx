@@ -9,6 +9,8 @@ const About = () => {
             <Text> Not able to focus these days., tyring to be consistent </Text>
             <Text> Aaj bhi nahi kara, </Text>
             <Text> Not done today </Text>
+            <Text> Not done anything today, just passing time. Trying hard not to loose stream. Doing minimum.
+            </Text>
 
             <Link href="/" style={styles.link}> Back Home</Link>
             <Link href="/contact" style={styles.link}>Contact Page</Link>
