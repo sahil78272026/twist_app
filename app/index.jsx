@@ -1,10 +1,11 @@
 import { StyleSheet, Text, View, Image } from 'react-native'
-import React from 'react'
+import React, { useEffect, useState } from 'react';
 import Logo from '../assets/img/logo_light.png'
 import { Link } from 'expo-router'
 
 
 const Home = () => {
+
     return (
         <View style={styles.container}>
             <Image source={Logo} style={styles.img} />
@@ -13,7 +14,6 @@ const Home = () => {
             <View style={styles.card}>
                 <Text> This is a card </Text>
             </View>
-
             <Link href="/about" style={styles.link}>About Page</Link>
             <Link href="/contact" style={styles.link}>Contact Page</Link>
             <Link href="/profile" style={styles.link}>Profile Page</Link>
