@@ -10,6 +10,7 @@ const Profile = () => {
             <Text>aaj bhi kuch nahi kar paya, consistency ke liye bas itna likh rha hu </Text>
             <Text> No work</Text>
             <Text> No work Today either </Text>
+            <Text> Consistency</Text>
             <Link href="/about" style={styles.link}>About Page</Link>
             <Link href="/contact" style={styles.link}>Contact Page</Link>
             <Link href="/" style={styles.link}> Back Home</Link>
