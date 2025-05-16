@@ -23,6 +23,7 @@ const Profile = () => {
             <Text> Consistencyy</Text>
             <Text> Consistency</Text>
             <Text>Consistency</Text>
+            <Text> Consistency</Text>
             <Link href="/about" style={styles.link}>About Page</Link>
             <Link href="/contact" style={styles.link}>Contact Page</Link>
             <Link href="/" style={styles.link}> Back Home</Link>
